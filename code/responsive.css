@@ -1,0 +1,158 @@
+
+@media(max-width:1030px){
+ /* 
+        ----------------------------------- 8. Feature Css ---------------------------------  */
+
+        .margin-top-up{
+                margin-top: -25rem;
+        }
+}
+@media(max-width:991px){
+        
+        /* 
+        ----------------------------------- 3. Common Css ---------------------------------  */
+        h1,h2{
+                font-size: 2.5rem;
+
+        }
+        .ipad-px-30{
+                padding: 0 1.875rem;
+        }
+
+        /* 
+        ----------------------------------- 4. Header Css ---------------------------------  */
+
+        .navbar{
+                padding-top: 0.625rem;
+                padding-bottom: 0.75rem;
+
+        }
+        .navbar-brand{
+                width: 50%;     
+        }
+        .navbar-brand img{
+                max-width: 60%;
+        }
+        .navbar-toggler{
+                padding-right: 0;
+        }
+        .navbar-toggler:focus{
+                box-shadow: none;
+        }
+        .navbar-toggler-icon{
+                color: var(--text-white);
+                width: 1em;
+                height: 1em;
+        }
+        .navbar-sticky-on .navbar-toggler-icon{
+                color: var(--text-black);
+        }
+        .navbar .navbar-nav{
+                background: var(--bg-white);
+                border-radius: 0.188ren;
+                text-align: center;
+
+        }
+        .navbar .navbar-nav .nav-link{
+                padding: 0.625rem 1.5rem;
+                color: var(--text-light-grey);
+        }
+
+        /* 
+        ----------------------------------- 5. Home Css ---------------------------------  */
+
+        #home{
+                padding-top: 7rem;
+        }
+        #home .row{
+                flex-direction: column-reverse;
+        }
+        #home .home-text{
+                text-align: center;
+        }
+        #home .home-text p{
+                margin-bottom: 5rem;
+        }
+        #home .home-download-btn{
+                justify-content: center;
+        }
+        .home-image{
+                text-align: center;
+                margin-top: 2rem;
+        }
+        .home-image img{
+                max-width: 60%;
+        }
+         /* 
+        ----------------------------------- 10. Pricing Css ---------------------------------  */
+        .single-price{
+                margin: 2rem;
+        }
+
+
+ }
+
+ @media(max-width: 767px){
+
+         /* 
+        ----------------------------------- 3. common Css ---------------------------------  */
+
+        .mobile_px_20{
+                padding: 0 1.25rem;
+        }
+
+          /* 
+        ----------------------------------- 3. Home Css ---------------------------------  */
+        #home{
+                padding-top: 5rem;
+        }
+        #home .home-text h2{
+                font-size: 2.438rem;
+                line-height: 3.938rem;
+        }
+        #home .home-text p{
+                padding: 0;
+                margin-bottom: 0;
+        }
+        #home .home-download-btn{
+                align-items: center;
+                flex-direction: column;
+                gap: 0px;
+               
+        }
+        #home .home-download-btn .btn{
+                margin: 0;
+                padding: 0.9em;
+                margin-top: 1.3rem !important;
+        }
+        .home-image{
+                text-align: center;
+                transform: rotate(0deg);
+                margin-top: 3.85rem;
+        }
+
+         /* 
+        ----------------------------------- 6. Counter Css ---------------------------------  */
+        .single-counter:nth-child(2)::after{
+         display: none;       
+        }
+        /* 
+        ----------------------------------- 6. Counter Css ---------------------------------  */
+        .mobile_px_20{
+                padding: 0 1.25rem;
+        }
+        .margin-top-up{
+                margin-top: 0rem;
+        }
+        .features-middle{
+                text-align: center;
+        }
+        .features-img{
+                text-align: center;
+                padding: 1.5rem;
+        }
+        .features-img img{
+                max-width: 95%;
+        }
+       
+ }
